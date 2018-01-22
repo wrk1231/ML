@@ -10,7 +10,7 @@ def read_images(filename):
         data = binary_file.read(4)
         magic=int.from_bytes(data,byteorder="big")
         if (magic!=2051):
-            raise exception(f"Bad binary file format, expected magic number 2051 but got {magic} instead")
+            raise exception("Bad binary file format, expected magic number 2051 but got {magic} instead")
         data = binary_file.read(4)
         Nimages=int.from_bytes(data,byteorder="big")
         data = binary_file.read(4)
@@ -30,7 +30,7 @@ def read_labels(filename):
         data = binary_file.read(4)
         magic=int.from_bytes(data,byteorder="big")
         if (magic!=2049):
-            raise exception(f"Bad binary file format, expected magic number 2049 but got {magic} instead")
+            raise exception("Bad binary file format, expected magic number 2049 but got {magic} instead")
         data = binary_file.read(4)
         Nimages=int.from_bytes(data,byteorder="big")   
         #print(magic,Nimages)
