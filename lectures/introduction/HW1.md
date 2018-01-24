@@ -14,15 +14,15 @@
 
 (b)
 
-a) The inputs are 129450 clinical images and their labels(different kind of diseases). The data comes from different online respositories and Stanford University Medical Center, together with a pre-trained Google Architecture.
+(i) The inputs are 129450 clinical images and their labels(different kind of diseases). The data comes from different online respositories and Stanford University Medical Center, together with a pre-trained Google Architecture.
 
-b) They try to distinguish different kinds of diseases based on the  images. 
+(ii) They try to distinguish different kinds of diseases based on the  images. 
 
-c) 9.
+(iii) 9.
 
-d) 129450.  127463 for training and 1942 for testing.
+(iv)) 129450.  127463 for training and 1942 for testing.
 
-e) They evaluated the performance by comparing the accuracy and variation of the model's performance with dermatologists' results. For the biopsy-proven part, they evaluated performance by testing  the accuracy, sensitivity, and compared it with the performance of the dematologists’.
+(v) They evaluated the performance by comparing the accuracy and variation of the model's performance with dermatologists' results. For the biopsy-proven part, they evaluated performance by testing  the accuracy, sensitivity, and compared it with the performance of the dematologists’.
 
 2.Scalar Data Types
 - Categorical: c), d), h) 
