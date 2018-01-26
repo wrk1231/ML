@@ -41,7 +41,7 @@
 
 4.Matrix and Index Notation:
 
-(a)$Y = X\Theta +\mathcal{E}$
+(a) $Y = X\Theta +\mathcal{E}$
 
 (b) $\frac{1}{N}(Y - X\Theta)^T(Y-X\Theta)$
 
@@ -61,4 +61,4 @@
 
 (d) $\frac{\partial{E}}{\partial{w_{k,d}}} = 0 \Leftrightarrow-2\sum_{i=1}^{i=N}(y_{i,k} - \sum_{d=1}^{d=D}x_{i,d}w_{k,d})x_{i,d} = 0$
 
-(e)$\frac{\partial{E}}{\partial{W}}=0 \Leftrightarrow X^TXW^T = X^TY$
+(e) $\frac{\partial{E}}{\partial{W}}=0 \Leftrightarrow X^TXW^T = X^TY$
