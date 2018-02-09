@@ -31,8 +31,8 @@
 - Ratio: a), f), i)
 
 3.Vector representation of Binary variables
-- $tr(Z) = \sum_{i}z_i^X$
-- $\frac{1}{N}tr(Z) = \frac{\sum_{i}z_i^X}{N}$
+- $tr(Z^X) = \sum_{i}z_i^X$
+- $\frac{1}{N}tr(Z^X) = \frac{\sum_{i}z_i^X}{N}$
 - $Z^{XY}=Z^X*Z^Y$ represents the vector of the samples which both statement X and Y are true.
 - $Z^X \cdot Z^Y$ represents the sum of cases in the samples when both statement X and Y are true.
 - $\frac{1}{N}(tr(Z^X) - tr(Z^{XY}))$
